@@ -3,8 +3,10 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Button from '@material-ui/core/Button';
 
-ReactDOM.render(
+
+ReactDOM.render( //react進入點
   <React.StrictMode>
     <App />
   </React.StrictMode>,
